@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "server": "node server/index.js",
-    "dev": "node server/index.js",
-    "seed": "node server/index.js --seed"
-  },
+  "start": "node server/index.js",
+  "server": "node server/index.js",
+  "dev": "node server/index.js",
+  "seed": "node server/index.js --seed"
+},
   "dependencies": {},
   "devDependencies": {}
 }
