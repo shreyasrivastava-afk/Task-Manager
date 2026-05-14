@@ -34,7 +34,7 @@ Password: password123
 Member demo:
 
 ```text
-Email: aarav@ethara.ai
+Email: pushkar@ethara.ai
 Password: password123
 ```
 
