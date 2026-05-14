@@ -128,7 +128,7 @@ function seed() {
     return user;
   };
   const admin = addUser("Shreya Shrivastava", "shreya@ethara.ai", "admin");
-  const aarav = addUser("Pushkar", "pushkar@ethara.ai", "member");
+  const aarav = addUser("Pushkar Lala", "pushkar@ethara.ai", "member");
   const ananya = addUser("Ananya Rao", "ananya@ethara.ai", "member");
   const kabir = addUser("Kabir Sharma", "kabir@ethara.ai", "member");
   const project = { id: ++db.counters.projects, name: "Ethara AI Workspace", description: "Coordinate internal tasks, client dashboards, reviews, and team delivery timelines.", status: "active", ownerId: admin.id, createdAt: now() };
