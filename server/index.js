@@ -316,6 +316,6 @@ http.createServer((req, res) => {
   if (req.url.startsWith("/api/")) routeApi(req, res).catch((error) => send(res, 500, { message: error.message }));
   else routeStatic(req, res);
 }).listen(PORT, "0.0.0.0", () => {
-  console.log(`ETHARA AI TASK MANAGER running at http://127.0.0.1:${PORT}`);
+  console.log(`ETHARA AI TASK MANAGER running on 0.0.0.0:${PORT}`);
   console.log("Demo login: shreya@ethara.ai / password123");
 });
