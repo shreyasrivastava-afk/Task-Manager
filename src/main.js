@@ -97,6 +97,7 @@ function authScreen(mode = "login") {
           <label>Password<input name="password" type="password" value="password123" autocomplete="current-password" required /></label>
           ${state.error ? `<p class="error">${state.error}</p>` : ""}
           <button class="primary">${mode === "login" ? "Login" : "Create account"}</button>
+          ${mode === "login" ? `<p class="hint">Admin: shreya@ethara.ai / password123<br>Member: pushkar@ethara.ai / password123</p>` : ""}
         </form>
       </section>
     </main>
