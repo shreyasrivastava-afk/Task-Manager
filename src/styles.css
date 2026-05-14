@@ -730,3 +730,9 @@ input:focus, select:focus, textarea:focus {
   .form-grid { grid-template-columns: 1fr; }
   .kanban { grid-template-columns: 1fr; }
 }
+.hint {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
