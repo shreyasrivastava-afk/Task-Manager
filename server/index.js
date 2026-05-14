@@ -315,7 +315,7 @@ if (process.argv.includes("--seed") || !fs.existsSync(DB_FILE)) seed();
 http.createServer((req, res) => {
   if (req.url.startsWith("/api/")) routeApi(req, res).catch((error) => send(res, 500, { message: error.message }));
   else routeStatic(req, res);
-}).listen(PORT, "127.0.0.1", () => {
+}).listen(PORT, "0.0.0.0", () => {
   console.log(`ETHARA AI TASK MANAGER running at http://127.0.0.1:${PORT}`);
   console.log("Demo login: shreya@ethara.ai / password123");
 });
